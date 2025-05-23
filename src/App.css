@@ -208,21 +208,27 @@ main {
   padding: 0.2rem;
 }
 
-.tweet__profile > img {
-  display: inline-block;
-  width: 50px;
-  border-radius: 100%;
+.tweet__profile img {
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  width: 48px;
+  height: 48px;
 }
+
 
 .notification__sign > .fas {
   display: initial;
   cursor: initial;
 }
 
-.tweet__content 
-.notification__content {
-  flex: 1 0 0;
+.tweet__content {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 16px;
+  margin-left: 12px;
 }
+
 
 .tweet__userInfo > .tweet__username {
   color: var(--bold-text-color);
@@ -239,6 +245,9 @@ main {
   margin-left: 0.5rem;
 }
 
+
 .tweet__message {
-  padding: 0.5rem;
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #222;
 }
